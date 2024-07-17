@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+
+.google-icon {
+  color: #DB4437; 
+
+}
+.or {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.facebook-icon {
+  color: #4267B2; 
+}
+
+.form-box {
+  border: 2px solid #4A5568;
+  border-radius: 8px; 
+  width: 400px;
+  height: 400px;
+  margin-left: 38%;
+  margin-top: 180px;
+  z-index: 1;
+  border-color: rgb(246, 247, 247) ;
+
+}
+
+.text-blue-300  {
+  margin-right: 150px;
+  color: #40ae54;
+}
+
+.text-blue-500 {
+ 
+  color: #40ae54;
+
+
+   }
+
+h2 {
+  color: #40ae54;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.username {
+  margin-bottom: 0.5rem;
+  width: 60%;
+  border-radius: 6px;
+  height: 30px;
+  text-align: center;
+  border-color: rgb(246, 247, 247) ;
+  
+}
+
+.password {
+  margin-bottom: 0.7rem;
+  width: 60%;
+  border-radius: 6px;
+  height: 30px;
+  text-align: center;
+  border-color: rgb(246, 247, 247) ;
+}
+
+.button {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 35px;
+  margin-right: 140px;
+  border-radius: 6px;
+  background-color: #40ae54;
+  color:aliceblue
+  
+}
+.background-form {
+  position: absolute;
+  width: 1000px;
+  height: 800px;
+  left: 17%;
+  right: 10%;
+  top: 5%;
+  border: 5px solid #61dafb;
+  border-radius: 3px solid #black;
+  border-color: rgb(246, 247, 247) ;
+  
+  }
+
+
+
+
+  
+  .background-shape {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(170deg, rgba(2, 195, 75, 0.84) 56.93%, rgba(4, 106, 180, 0) 112.55%);
+    transform: rotate(-311deg);
+    animation: wave 10s infinite linear;
+    border-radius: 50%;
+  }
+  
+  .shape-1 {
+    top: 150px;
+    right: 150px;
+  }
+  
+  .shape-2 {
+    bottom: 150px;
+    left: 170px;
+    top: 280px;
+  }
+  
+  @keyframes wave {
+    100%, 100% {
+      clip-path: polygon(900% 10%, 100% 50%, 50% 100%, 800% 50%);
+    }
+    50% {
+      clip-path: polygon(70% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+  }
